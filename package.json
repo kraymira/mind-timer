@@ -9,6 +9,17 @@
   "author": "Lana Kashirina",
   "license": "ISC",
   "dependencies": {
-    "express": "^5.1.0"
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.1",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "jest": "^30.0.5",
+    "nodemon": "^3.1.10",
+    "supertest": "^7.1.4"
   }
 }
